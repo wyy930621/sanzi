@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script type = "text/javascript" src = "../js/checkCode.js"></script>
+    <script src="../js/index.js"></script>
+
+</head>
+<style type="text/css">
+    html,body{
+        font-family: '微软雅黑','Helvetica';
+        min-width:800px;
+        position: relative;
+        height:auto;
+    }
+</style>
+<body>
+<div class="sanPage">
+    <div class="clearfix">
+        <!--头部-->
+        <header>
+            <div class="container">
+                <div class="san_logo">
+                    <div class="clearfix">
+                        <a href="javascript:;"></a>
+                    </div>
+                </div>
+                <ul class="san_nav">
+                    <li>
+                        <a href="../index.html">
+                            <p>首页</p>
+                            <p>Home</p>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <p>产品</p>
+                            <p>Products</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="system.html">
+                            <p>系统</p>
+                            <p>System</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="select" href="contact.html">
+                            <p>我们</p>
+                            <p>Contact</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="download.html">
+                            <p>下载</p>
+                            <p>Download</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!--中间部分-->
+        <div class="content">
+            <div class="con">
+                <!--联系我们 开始-->
+                <div class="contact">
+                    <img src="../images/contact_banner.png" alt=""/>
+                </div>
+                <div class="us">
+                    <div class="container">
+                        <div class="title" style="background:none">
+                            <h1>CONTACT <span style="color:#848484">US</span></h1>
+                            <h3>联系我们</h3>
+                        </div>
+                        <div class="liuyan">
+                            <div class="liuyan_l">
+                                <div>
+                                    <label for="">留言人：</label>
+                                    <input type="text"/>
+                                </div>
+                                <div>
+                                    <label for="">手机号码：</label>
+                                    <input type="text"/>
+                                </div>
+                                <div>
+                                    <label for="">留言标题：</label>
+                                    <input type="text"/>
+                                </div>
+                                <div>
+                                    <label for="">建议设备：</label>
+                                    <select name="" id="s_type" style=" margin-right: 20px;">
+                                        <option value="">请选择</option>
+                                        <option value="">智能家居</option>
+                                        <option value="">生活帮手</option>
+                                        <option value="">医疗设备</option>
+                                        <option value="">交通工具</option>
+                                        <option value="">空气净化</option>
+                                        <option value="">其他</option>
+                                    </select>
+                                    <select name="" id="f_type">
+                                        <option value="">请选择</option>
+                                    </select>
+                                </div>
+                                <div style="height:100px;">
+                                    <label>留言内容：</label>
+                                    <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="3" col="20" style="overflow-y:scroll"></textarea>
+                                </div>
+                                <div>
+                                    <label for="">验证码：</label>
+                                    <input type="text"  id="input" style="width:16%"/><input type = "button" id="code" onclick="createCode()" style="margin:0;background:none;border:0;color:blue;    font-size: 20px;"/><span class="huan"><a  style="text-decoration:line-through;color:#e7af34"
+                                        href="javascript:;">看不清楚？换一张</a></span>
+                                </div>
+                                <div><input type="button" value="发表留言" onclick = "validate()"/></div>
+                            </div>
+                            <div class="liuyan_r">
+                                <h3>如果您有任何疑问，请及时联系我们！</h3>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;"><img src="../images/contact_03.png" alt=""/>
+                                            <span>地址：太原市杏花岭区五一路景观新贵B座1715</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img src="../images/contact_05.png" alt=""/>
+                                            <span>邮编：030000</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img src="../images/contact_09.png" alt=""/>
+                                            <span>电话：0351-2405533</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><img src="../images/contact_10.png" alt=""/>
+                                            <span>邮箱：service@sanzitech.com </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--联系我们结束-->
+              </div>
+        </div>
+        <!--底部开始-->
+        <footer>
+            <div class="banquan">
+                <ul>
+                    <li><a href="3zil-boss.html">三子智联3zil-boss系统V1.0 软著登字第2440085号</a><span>|</span></li>
+                    <li><a href="3zil-jiaju.html">智能家居网关服务器软件V1.0 软著登字第2439957号</a><span>|</span></li>
+                    <li><a href="3zil-shanghu.html">三子智联商户服务软件 软著登字第2499793号</a></li>
+                    <div style="clear: both"></div>
+                </ul>
+                <ul>
+                    <li><a href="3zil-weihu.html">三子智联用户维护软件V1.0 软著登字第2440083号</a><span>|</span></li>
+                    <li><a href="3zil-life.html">三子智联智能生活软件V1.0 软著登字第2499910号</a><span>|</span></li>
+                    <li><a href="3zil-yingye.html">三子智联综合营业系统V1.0 软著登字第2439796号</a></li>
+                    <div style="clear: both"></div>
+                </ul>
+                <ul>
+                    <li><a href="shiyong.html">实用-超低功耗热释电红外探测信号梳理电路</a><span>|</span></li>
+                    <li><a href="w_menci.html">外观-门磁套件</a><span>|</span></li>
+                    <li><a href="w_hongwai.html">外观-双向红外报警器</a></li>
+                    <div style="clear: both"></div>
+                </ul>
+                <div style="text-align: center;margin-top:20px;">Copyright © 2016-2030 山西三子智联电子科技有限公司 版权所有</div>
+            </div>
+            <div style="clear: both"></div>
+        </footer>
+        <!--底部结束-->
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $('#s_type').change(function(){
+        var s_type = $('#s_type').find('option:selected').text();
+        $('#f_type').empty();
+        if(s_type == '智能家居'){
+            $('#f_type').append('<option>指纹锁</option><option>灯具</option><option>窗帘</option><option>电饭煲</option><option>灯光</option><option>恒温系统</option><option>影音</option>')
+        }else if(s_type == '生活帮手'){
+            $('#f_type').append('<option>运动手环</option><option>体重仪</option><option>水杯</option><option>手表</option><option>扫地机器人</option><option>运动鞋</option>')
+        }else if(s_type == '医疗设备'){
+            $('#f_type').append('<option>温度计</option><option>血压计</option><option>血糖仪</option><option>假肢</option>')
+        }else if(s_type == '交通工具'){
+            $('#f_type').append('<option>车锁监控</option><option>车子定位</option><option>车载充电器</option><option>车载传感器</option>')
+        }else if(s_type == '空气净化'){
+            $('#f_type').append('<option>口罩</option><option>加湿器</option>')
+        }else if(s_type == '其他'){
+            $('#f_type').append('<option>其他</option>')
+        }
+    })
+</script>
